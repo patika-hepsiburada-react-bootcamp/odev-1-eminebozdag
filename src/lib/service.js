@@ -1,5 +1,6 @@
 import axios from "axios";
 
+//this function block gets an id parameter and returns fetched data as an array using by Promise
 const getData = async (userId) => {
   try {
     return Promise.all([
